@@ -1,0 +1,82 @@
+.nav {
+  background-color: #000000;
+}
+
+.logo {
+  width: 78px;
+  height: 37px;
+}
+
+.searchBoxForm {
+  margin-left: 4%;
+}
+
+.searchBoxInput {
+  border: none;
+  border-radius: 0px;
+  min-width: 250px;
+  height: 50%;
+}
+
+.searchBoxInput::placeholder {
+  color: #9b9b9b;
+  letter-spacing: 1px;
+  font-size: 0.7em;
+}
+
+.searchIconContainer {
+  background-color: #4a90e2;
+  height: 2.43em;
+  width: 2.3em;
+}
+
+.searchIconBox {
+      background: #4a90e2;
+    padding-top: 0.65em;
+    padding-left: 1.2em;
+    padding-right: 1em;
+}
+
+.navigationFormGroup {
+
+}
+
+.searchIconSvg {
+  font-size: 0.9em;
+  color: white;
+}
+
+
+.verticalBorder {
+  border-right: solid 1px #979797;
+}
+
+.cartLogo {
+  font-size: 1.5em;
+  margin-right: 0.3em;
+}
+
+.heartLogo {
+  font-size: 1.5em;
+  margin-right: 0.3em;
+}
+
+.username {
+  color: #ffffff !important;
+  font-size: 1.2em;
+}
+
+.headerDropdown {
+  left: -60%;
+}
+
+@media screen and (max-width: 768px) {
+/* CSS rules here for screens lower than 576px */
+  .navigationFormGroup {
+    width: 100%;
+  }
+
+  .verticalBorder {
+    border-right: 0px;
+  }
+}

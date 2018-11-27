@@ -1,0 +1,14 @@
+.bannerContainer {
+	padding-left: 0px;
+	padding-right: 0px; 
+	overflow: hidden;
+}
+
+.bannerCarousel {
+	padding-left: 0px !important;
+}
+
+.bannerImg {
+	height: 172px;
+	width: 1440px;
+}
